@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	<link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css">
+	<script type="text/javascript" src="./public/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./public/pageJs/login.js"></script>
+</head>
+<body>
+	<form action="http://127.0.0.1:8088/login" method="post">
+		      <div class="content">
+		          <div class="col-lg-3">
+		             <div class="form-group"> 
+						<label for="usrName">用户名：</label>
+						<input id="usrName" type="text" class="form-control"  name="usrName">
+		             </div>
+		             <div class="form-group"> 
+						<label for="usrPwd">密码：</label>
+						<input id="usrPwd" type="text" class="form-control" name="usrPwd">
+		             </div>
+		            <!-- <button class="btn-success" onclick="login()">登录</button> -->
+		            <input type="submit" name="" value="登录">
+		          </div>
+			 </div>
+
+	</form>
+	 
+	 <h1>{{content}}</h1>
+	 <div id="content"></div>
+</body>
+</html>
